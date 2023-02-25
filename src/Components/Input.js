@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import "../css/Input.css";
+import { useContext2 } from "./context";
 
-export const Input = ({ data }) => {
+export const Input = () => {
   const [input, setInput] = useState("");
+
+  const data = useContext2();
 
   const SubmitHandler = (e) => {
     e.preventDefault();

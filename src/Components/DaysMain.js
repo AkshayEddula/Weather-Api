@@ -1,5 +1,4 @@
 import React from "react";
-import { BsFillCloudFill } from "react-icons/bs";
 import "../css/DaysMain.css";
 
 export const DaysMain = ({ Day, date }) => {
