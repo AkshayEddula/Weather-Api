@@ -1,0 +1,29 @@
+.d1 {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.days_main {
+  color: rgb(220, 220, 220);
+  margin: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+}
+
+@media only screen and (max-width: 480px) {
+  .days_main {
+    margin: 10px;
+    padding: 20px;
+  }
+}
